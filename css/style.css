@@ -1,0 +1,63 @@
+ * {
+   box-sizing: border-box;
+     padding: 0;
+}
+#drag{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container-fluid{
+    position: relative;
+    height: 700px;
+    padding: 0;
+}
+
+#img1{
+    display: block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    height: auto;
+    top: 1000px;
+    animation-name: an;
+    animation-duration: 5s;
+    animation-iteration-count:1;
+}
+
+@keyframes an {
+    0%{
+        top:1px;
+    }
+    100%{
+        top: 1000px;
+    }
+}
+#flam{
+
+    position: absolute;
+    display: block;
+    width:100px ;
+    height:500px ;
+    top: 330px;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    z-index: 1;
+}
+nav{
+    width: 100%;
+    background-color: yellow;
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+}
+label{
+    padding-top: 10px;
+    text-align: left;
+    font-size: x-large;
+}
