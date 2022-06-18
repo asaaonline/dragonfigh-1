@@ -239,23 +239,23 @@ function  createobject() {
 
         switch (i){
             case 1||2:{
-                s="../images/d1.gif";
+                s="images/d1.gif";
                 break;
             }
             case 3||4:{
-                s="../images/d2.gif";
+                s="images/d2.gif";
                 break;
             }
             case 5||6:{
-                s="../images/d3.gif";
+                s="images/d3.gif";
                 break;
             }
             case 7||8:{
-                s="../images/d4.gif";
+                s="images/d4.gif";
                 break;
             }
             default:{
-                s="../images/d3.gif";
+                s="images/d3.gif";
 
             }
         }
